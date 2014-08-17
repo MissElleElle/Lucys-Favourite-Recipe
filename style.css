@@ -1,0 +1,227 @@
+/*BASE*/
+
+body {
+	background-color: #B7FAA4;
+	font-size: 18px;
+}
+
+#container {
+	margin: 0;
+	padding: 0;
+	height: auto;
+	min-height: 100%;
+	width: 100%;
+}
+
+h1 {
+	position: absolute; /*text can sit over images*/
+	text-align: center;
+	font-size: 50px;
+	margin-top: 120px;
+	margin-left: 360px;
+	font-family: cursive;
+	white-space: nowrap; /*prevents text from moving when page resizes*/
+}
+
+h2 {
+	text-align: center;
+	margin-top: 40px;
+}
+
+h3 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+/*LAYOUT*/
+#headerImg {
+	width: 700px;
+	height: 310px;
+	position: relative; /*sets image so text can be displayed over it*/
+	margin-left: auto; /*margins auto and display block centers image*/
+	margin-right: auto;
+	display: block;
+	margin-top: 30px;
+	white-space: nowrap;
+}
+
+.boxes {
+	text-align: center;
+	 width: 880px;
+     margin: auto;
+     margin-top: 25px;
+     background-color: white;
+     border: 5px solid white;
+     box-shadow: 9px 9px 20px #707070;
+}
+
+#layout_introBox {
+     height: 415px;
+}
+
+#introImg {
+	width: 400px;
+	height: 320px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 50px;
+	border-radius: 100%;
+}
+
+.intro {
+	font-size: 25px;
+	position: absolute;
+	margin-left: 500px;
+	white-space: nowrap;
+}
+
+#introCat {
+	margin-top: 50px;
+}
+
+#introMakes {
+	margin-top: 85px;
+}
+
+#introPrep {
+	margin-top: 120px;
+}
+
+#introSet {
+	margin-top: 155px;
+}
+
+#introP {
+	margin-top: 225px;
+}
+
+#layout_ingredientsBox {
+     height: 575px;
+}
+
+#ingredientsInfo {
+	margin-top: 45px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+}
+
+#ingredientsBulletImg {
+	width: 35px;
+	height: 30px;
+}
+
+#ingredientsList1 {
+	float: left;
+	margin-left: 60px;
+    margin-top: 15px;
+    width: 350px;
+    height: 330px;
+    background-color: #F7CBC6;
+}
+
+#ingredientsList2 {
+	float: right;
+	margin-right: 60px;
+    margin-top: 15px;
+    width: 350px;
+    height: 330px;
+    background-color: #C6F2F7;
+}
+
+#layout_directionsBox {
+     height: 1910px;
+}
+
+.img {
+	width: 400px;
+	height: 320px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 25px;
+}
+
+.steps {
+	float: right;
+	margin-right: 50px;
+	text-align: left;
+}
+
+#step1 {
+	margin-top: 25px;
+}
+
+#step2 {
+	margin-top: 305px;
+}
+
+#step3 { 
+	margin-top: 295px;
+}
+
+#step4 {
+	margin-top: 220px;
+}
+
+#step5 {
+	margin-top: 255px;
+}
+
+.hiddenSteps {
+	width: 400px;
+	height: 320px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 25px;
+	text-align: center;
+	font-size: 30px;
+	display: none; /*hides the div until clicked*/
+	/*position: absolute;*/
+}
+
+.hiddenStep1 {
+	display: none;
+}
+
+
+.hiddenStep2 {
+	display: none;
+}
+
+
+.hiddenStep3 {
+	display: none;
+}
+
+
+.hiddenStep4 {
+	display: none;
+}
+
+
+.hiddenStep5 {
+	display: none;
+}
+
+.hiddenCheckImg {
+	margin-top: 60px;
+	width: 200px;
+	height: 200px;
+}
+
+/*STATE*/
+.img:hover {
+	box-shadow: 7px 7px 9px #707070;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition-duration: 1.5s;
+}
+
